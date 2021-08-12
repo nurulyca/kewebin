@@ -291,7 +291,7 @@
 
         <!-- Clients-->
         <div class="py-5">
-            <div class="container">
+            <div class="container clients">
                 <div class="row align-items-center">
                     <div class="col-md-3 col-sm-6 my-3">
                         <a href="https://localgoodguide.com/"><img class="img-fluid d-block mx-auto" style="height: 100px" src="assets/img/logos/logokew.png" alt="..." /></a>
@@ -308,9 +308,65 @@
                 </div>
             </div>
         </div>
+
+        <!-- Marketing -->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center mb-4">
+                    <h2 class="section-heading text-uppercase">Dapatkan penawaran terbaik dari kami!</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><h5 class="large text-black">Kamu mau menjangkau pelanggan baru di dunia digital?</h5></div>
+                    <div class="col-lg-8 mx-auto text-center"><h5 class="large text-black">Kamu mau mempunyai web sendiri untuk bisnismu atau personal branding dengan harga terjangkau?</h5></div>
+                    <div class="col-lg-8 mx-auto text-center"><h5 class="large text-black">Kamu mau mendapatkan kesempatan untuk membuat website gratis tanpa keluar biaya mahal?</h5></div>
+                    <div class="col-lg-8 mx-auto text-center"><h5 class="large text-black">Kamu mau mendapatkan informasi-informasi pembuatan website?</h5></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">DAFTAR, YUK!</h2>
+                    <h3 class="section-subheading text-muted">Dapatkan informasi pembuatan web.</h3>
+                </div>
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" id="name" type="text" placeholder="Namamu *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" id="email" type="email" placeholder="Emailmu *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <!-- Phone number input-->
+                                <input class="form-control" id="phone" type="tel" placeholder="No. Handphonemu *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" id="message" placeholder="Pesanmu *" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                        </div>
+                    </div>        
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit" style="background-color: #fd7e14; border-color: #fd7e14;">Daftar</button></div>
+                </form>
+            </div>
+        </section>
         
         <!-- Footer-->
-        <div class="container-fluid pb-0 mb-0 justify-content-center text-light" id="contact">
+        <div class="container-fluid pb-0 mb-0 justify-content-center text-light">
             <footer>
                 <div class="row my-5 justify-content-center py-5">
                     <div class="col-11">
@@ -338,7 +394,7 @@
                         <div class="row ">
                             <div class="col-xl-8 col-md-4 col-sm-4 my-md-0 mt-5 order-sm-1 order-3 align-self-end">
                                 <p class="social text-muted mb-0 pb-0 bold-text"> 
-                                    <a class="mx-2 btn-social" href="#" style="color: #fd7e14;">
+                                    <a class="mx-2 btn-social" href="https://www.facebook.com/Kewebin-130397492542062" style="color: #fd7e14;">
                                         <i class="fab fa-facebook" aria-hidden="true"></i>
                                     </a> 
                                     <a class="mx-2 btn-social" href="https://www.linkedin.com/company/kewebin/" style="color: #fd7e14;">
@@ -355,9 +411,6 @@
                             <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end ">
                                 <h6 class="mt-55 mt-2 text-muted bold-text"><b></b></h6><small class="text-muted"> <span><i class="" aria-hidden="true"></i></span> </small>
                             </div>
-                            <!-- <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 ">
-                                <h6 class="text-muted bold-text text-muted"><b>EMAIL</b></h6><small class="text-muted"><span><i class="fa fa-envelope" aria-hidden="true"></i></span> kewebin@gmail.com</small>
-                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -688,6 +741,9 @@
                                             Website
                                         </li>
                                     </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" onclick="window.location.href='https://cana-catering.web.app';" style="background-color: #fd7e14; border-style: solid; border-color: #fd7e14;" data-bs-dismiss="modal" type="button">
+                                        <a>Buka Website</a>
+                                    </button>
                                     <button class="btn btn-primary btn-xl text-uppercase" style="background-color: #fd7e14; border-style: solid; border-color: #fd7e14;" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
                                         Tutup Project

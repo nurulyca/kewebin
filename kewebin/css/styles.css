@@ -7111,7 +7111,7 @@ textarea.form-control-lg {
 
 .py-5 {
   padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
+  padding-bottom: 10rem !important;
 }
 
 .pt-0 {
@@ -11262,8 +11262,13 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 
+
 .img-brand {
   height: 2.75rem;
+}
+
+.clients {
+  margin-bottom: -6rem;
 }
 
 section#contact {
@@ -11273,7 +11278,7 @@ section#contact {
   background-position: center;
 }
 section#contact .section-heading {
-  color: #fff;
+  color: #fd7e14;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
@@ -11333,7 +11338,6 @@ iframe {
 
  .container-fluid {
      overflow: hidden;
-     margin-top: 250px;
      background: #262626;
      color: #627482 !important;
      margin-bottom: 0;
@@ -11350,7 +11354,7 @@ iframe {
  }
 
  h3 {
-     font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+     font-size: calc(30px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
  }
 
  .social {
